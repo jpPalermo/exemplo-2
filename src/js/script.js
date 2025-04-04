@@ -39,19 +39,39 @@
 
 //FLOAT => STRING
 
-let numFloat =123.456;
-console.log(numFloat.toString())
+// let numFloat =123.456;
+// console.log(numFloat.toString())
 
-//STRING => FLOAT
-let numString ="12.963";
-console.log(parseFloat(numString))
+// //STRING => FLOAT
+// let numString ="12.963";
+// console.log(parseFloat(numString))
 
-//INT => STRING
-let numInt =100;
-console.log(numInt.toString())
+// //INT => STRING
+// let numInt =100;
+// console.log(numInt.toString())
 
-//STRING => INT
+// //STRING => INT
 
-let numString1 ="120";
-console.log(parseInt(numString1))
+// let numString1 ="120";
+// console.log(parseInt(numString1))
+
+//METODOS
+
+//METODO length - VERIFICA O TAMNHO DA STRING
+
+let frase ="O mundo da Tecnologia";
+console.log(frase.length)
+
+//METODO Indeof/lastIndexOf-RETORNA UM TRECHO DO SEU CODIGO
+
+let texto ="Programação Sustentável ão";
+console.log(texto.lastIndexOf("ão"))
+
+//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
+let info ="Programação de ponta";
+console.log(info.slice(14,20))
+
+//OPERADORES ARITMÉTICOS
+
+
 
