@@ -34,52 +34,24 @@
 // let exemplo5 =[];
 // console.log(typeof exemplo5)
 
-// //CONVERSÕES
 
-// let numFloat =123.456;
-// console.log(parseInt(numFloat));
+//CONVERSÕES
 
-// let numString ="123.456";
-// console.log(parseFloat(numString));
+//FLOAT => STRING
 
-// //METODOS
+let numFloat =123.456;
+console.log(numFloat.toString())
 
-// //length = verifica o tamanho da string
-// let frase ="O mundo da tecnologia";
-// console.log(frase.length);
+//STRING => FLOAT
+let numString ="12.963";
+console.log(parseFloat(numString))
 
-// //indexOf -retorna um trecho do texto
+//INT => STRING
+let numInt =100;
+console.log(numInt.toString())
 
-// let texto="A programação indomável e sustentavel";
-// console.log(texto.indexOf(""))
+//STRING => INT
 
-
-// //slice - retorna um trecho do texto com inicio e final
-
-// let info ="Processamento de ponta";
-// console.log(info.slice(16,25))
-
-//OPERADORES ARITIMÉTICOS
-
-// const num1=10;
-// const num2=20;
-
-// console.log(num1 + num2);
-// console.log(num1 - num2);
-// console.log(num1 * num2);
-// console.log(num1 / num2);
-
-// OPERADORES LÓGICOS
-
-const num3=20;
-const num4=30;
-
-console.log(num3 < num4);
-console.log(num3 > num4 && num4 < num3);
-console.log(num3 < num4 || num4 < num3); 
-
-//OPERADORES DE COMPARAÇÃO
-
-console.log(num3 == num4);
-console.log(num3 === num4);
+let numString1 ="120";
+console.log(parseInt(numString1))
 
