@@ -140,7 +140,7 @@ switch(time){
     console.log("Melhor time")
     break;
 case "São Paulo":
-    console.log("Time afeminado")
+    console.log("Bambe")
     break;
     case "corinthians":
     console.log("Time de ladão")
@@ -154,3 +154,30 @@ case "São Paulo":
 let valor1=100;
 let resultado = valor1 ==100 ? "valor certo": "valor errado";
 console.log(resultado)
+
+
+//Estrutura de repetição
+for(let i=0; i<10;i++){
+    console.log("o valor de i é", i)
+}
+
+let f=0
+
+while(f <10){
+    console.log("o valor de f é",f)
+    f++;
+}
+
+//do while
+
+let w=0;
+
+do{
+    console.log("do while",w)
+    w++
+}while(w <=20)
+
+
+//Jogo de Adivinhação
+
+let palpite;
