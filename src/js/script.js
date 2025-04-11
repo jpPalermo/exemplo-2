@@ -181,3 +181,13 @@ do{
 //Jogo de Adivinhação
 
 let palpite;
+const sorteio = Math.floor(Math.random() * 10)+1;
+
+
+do{
+    palpite =parseInt(prompt("Escolha um número entre 1 e 10"))
+}while(palpite !== sorteio)
+
+    alert(`Parabéns você ganhou o jogo ${palpite}`)
+
+    
