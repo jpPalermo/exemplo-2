@@ -92,11 +92,65 @@
 // console.log(c == d || d <= c )
 
 //OPERADORES DE COMPARAÇÃO
-let e="10";
-let f="10";
+// let e="10";
+// let f="10";
 
-console.log( e == f);
-console.log( e === f);
-console.log( e != f);
+// console.log( e == f);
+// console.log( e === f);
+// console.log( e != f);
 
 
+//CONDICIONAL 
+if(true){
+    console.log("é verdadeiro")
+}
+
+let valor = 1
+if (valor == 1){
+    console.log(valor)
+}
+//if e else
+
+let nome = fiap
+if(nome == "fiap"){
+    console.log("nome está correto")
+
+}
+else{
+    console.log("nome está errado")
+}
+//If encadeado ou aninhado
+
+let idade =13;
+if(idade <=14){
+    console.log("Não pode entrar é menor")
+}
+else if(idade >14 && idade <=18){
+    console.log("Pode entrar e curtir")
+}
+else if(idade >18 && idade <=50){
+    console.log("Carro Bicho")
+}
+//switch case
+
+let time ="Palmeiras";
+
+switch(time){
+    case "Palmeiras":
+    console.log("Melhor time")
+    break;
+case "São Paulo":
+    console.log("Time afeminado")
+    break;
+    case "corinthians":
+    console.log("Time de ladão")
+    break
+    default:
+        console.log("Time irrelevante (santos")
+}
+
+//Ternario
+
+let valor1=100;
+let resultado = valor1 ==100 ? "valor certo": "valor errado";
+console.log(resultado)
