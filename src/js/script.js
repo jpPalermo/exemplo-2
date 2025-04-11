@@ -190,4 +190,11 @@ do{
 
     alert(`Parabéns você ganhou o jogo ${palpite}`)
 
-    
+//Funções
+
+function saudacao(nome){
+    console.log(`Seja Bem-Vindo ${nome}`)
+    console.log("Seja bem vindo", nome)
+}
+saudacao ("FIAP")
+
